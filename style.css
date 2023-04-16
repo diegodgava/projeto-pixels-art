@@ -65,8 +65,8 @@
     padding: 30px;
     width: 50vw;
     cursor: pointer;
-    position: fixed;
-    top: 40%;
+    position: absolute;
+    top: 33%;
     left: 41%;
     z-index: 1;
   
