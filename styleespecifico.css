@@ -20,19 +20,19 @@
   }
   #button-container {
     height: 10vh;
-    width: 80vw;
+    width: 90vw;
     top: 10%;
-    left: 10%;
+    left: 7%;
   }  
   #board-size {
-    top: 20%;
+    top: 22%;
     left: 70%;
     width: 50px; 
   }
   #color-palette {
     width: 80vw;
     top: 37%;
-    left: 15%;
+    left: 12%;
   }
     
 }
