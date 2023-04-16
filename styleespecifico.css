@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 768px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 27%;
+      }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 32%;
+      }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 35%;
+      }
+    
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 38%;
+      }
+    
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 39%;
+      }
+    
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2500px) {
+  #button-container {
+    height: 10vh;
+    width: 80vw;
+    left: 10%;
+ 
+}  
+    #board-size {
+       top: 30%;
+       left: 70%;
+    
+    }
+      #color-palette {
+        top: 40%;
+        left: 42%;
+      }
+    
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=UnifrakturCook:wght@700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#header {
+    background-color: #f2f2f2;
+    
+}
+#title {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#container {
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+  }
+#button-container {
+    width: 50vw;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+ 
+}
+#button-random-color { 
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    background-color: #007bff;
+    font-family: 'Press Start 2P', cursive;
+    margin: auto;
+    border-radius: 5px;
+
+}
+#clear-board {
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    background-color: #007bff;
+    font-family: 'Press Start 2P', cursive;
+    margin: auto;
+    border-radius: 5px;
+
+}
+#generate-board {
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    margin: auto;
+    border-radius: 5px;
+
+}
+#color-palette {
+    display: flex;
+    padding: 30px;
+    width: 50vw;
+    cursor: pointer;
+    position: fixed;
+    top: 40%;
+    left: 44%;
+     z-index: 1;
+  
+}
+
+.color {
+    display: inline-block;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   
+}
+.color:hover {
+    border: 3px solid black;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+#board-size {
+    position: absolute;
+    left: 63%; 
+    top: 24%;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.selected { 
+    border: 3px solid black;
+    padding: 20px;
+  }  
+  
+#borracha {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1px;
+    box-sizing: border-box;
+}
+#borracha:hover {
+    border: 3px solid black;
+}
+
+  #pixel-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0;
+    gap: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+  }
+
+  button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+  }
+
+ #footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de Cores</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="styleespecifico.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Arte em Pixels</h1>
+    </header>
+   
+    <main id="container">
+        <section id="button-container">
+            <button id="button-random-color">Cores aleatórias</button>
+            <button id="clear-board">Limpar</button>
+            <button id="generate-board">Gerar Grid</button>
+        </section>
+        <section id="color-palette">
+            <div class="color color1 selected" style="background-color: black;"></div>
+		    <div class="color color2" style="background-color: red;"></div>
+		    <div class="color color3" style="background-color: blue;"></div>
+		    <div class="color color4" style="background-color: green;"></div>
+            <div class="color color4" style="background-color: yellow;"></div>
+            <div class="color color4" style="background-color: pink;"></div>
+            <div id="borracha" style="background-color: white;"></div>
+        </section>
+        <section>
+            <input type="number" id="board-size" min="1" required placeholder="Insira o tamanho do Grid">
+        </section>
+        <section>
+            <div id="pixel-board"></div>
+       </section>
+    </main>
+    <footer id="footer">Criado por Diego Gava</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
