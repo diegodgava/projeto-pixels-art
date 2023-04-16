@@ -6,13 +6,13 @@
     padding: 0;
 }
 #header {
-    background-color: #f2f2f2;
-    position: absolute;
-    width: 97.8vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Press Start 2P', cursive;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
     
     
 }
@@ -20,8 +20,9 @@
 
 #container {
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
+    box-sizing: border-box;
   }
 #button-container {
     width: 50vw;
@@ -135,7 +136,7 @@
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    z-index: 0;
+    z-index: 1;
   }
 
   button:hover {
@@ -146,11 +147,12 @@
  #footer {
     text-align: center;
     font-size: 14px;
-    padding: 20px;
+    padding: 10px;
     background-color: #f2f2f2;
     border-top: 1px solid #ddd;
-    position: absolute;
+    position: fixed;
     bottom: 0;  
-    width: 97.8vw;
+    width: 100%;
     font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
   }

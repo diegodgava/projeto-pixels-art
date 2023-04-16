@@ -25,9 +25,16 @@ const gerarPaletaAleatoria = () => {
       header.style.backgroundColor = corAleatória();
     }
     localStorage.setItem('colorPalette', JSON.stringify(coresAtuais));
+    localStorage.setItem('corDoHeader', JSON.stringify(corAleatória()));
+    localStorage.setItem('corDoFooter', JSON.stringify(corAleatória()));
   });
 };
-
+const carregarCoresFootHead = () => {
+  const corDoHeader = JSON.parse(localStorage.getItem('corDoHeader'));
+  const corDoFooter = JSON.parse(localStorage.getItem('corDoFooter'));
+  if (corDoHeader) header.style.backgroundColor = corDoHeader;
+  if (corDoFooter) footer.style.backgroundColor = corDoFooter;
+}
 const carregaCoresDaPaleta = () => {
   const colorPalette = JSON.parse(localStorage.getItem('colorPalette'));
   for (let i = 0; i < coresMenosPrimeira.length; i += 1) {
@@ -107,6 +114,7 @@ window.onload = () => {
   recuperarCoresSalvas();
   selecionaPaleta();
   carregaCoresDaPaleta();
+  carregarCoresFootHead();
   gerarPaletaAleatoria();
   limpar();
 };
