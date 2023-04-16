@@ -15,17 +15,22 @@
   #button-random-color { 
   font-size: 8px;
   width: 100px;
-  padding: 10px;
+  padding: 9px;
+  height: 30px;
   }
   #clear-board {
     font-size: 12px;
     width: 100px;
     padding: 10px;
+    height: 30px;
+
   }
   #generate-board {
-    font-size: 12px;
+    font-size: 9px;
     width: 100px;
-    padding: 10px;
+    padding: 9px;
+    height: 30px;
+
   }
   #button-container {
     height: 10vh;
@@ -36,16 +41,20 @@
   #board-size {
     top: 30%;
     left: 76%;
-    width: 50px; 
+    width: 40px; 
+    height: 20px;
   }
   #color-palette {
     width: 80vw;
-    top: 38%;
+    top: 40%;
     left: 10%;
   }
   #pixel-board {
     top: 60%;
   }
+  #canvas {
+    top: 60%;
+    }
     
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -62,19 +71,25 @@
     font-size: 1em;
   }
   #button-random-color { 
-  font-size: 10px;
-  width: 130px;
-  padding: 10px;
+    font-size: 8px;
+    width: 100px;
+    padding: 9px;
+  height: 30px;
+
   }
   #clear-board {
-    font-size: 12px;
-    width: 100px;
-    padding: 10px;
+    font-size: 10px;
+  width: 100px;
+  padding: 9px;
+    height: 30px;
+
   }
   #generate-board {
-    font-size: 12px;
+    font-size: 9px;
     width: 100px;
-    padding: 10px;
+    padding: 9px;
+    height: 30px;
+
   }
   #button-container {
     height: 10vh;
@@ -85,7 +100,9 @@
   #board-size {
     top: 30%;
     left: 67%;
-    width: 50px; 
+    width: 30px; 
+    height: 20px;
+
   }
   #color-palette {
     width: 80vw;
@@ -94,6 +111,9 @@
   }
   #pixel-board {
     top: 60%;
+  }
+  #canvas {
+  top: 60%;
   }
 }
 
@@ -111,19 +131,22 @@
     font-size: 1em;
   }
   #button-random-color { 
-    font-size: 12px;
-    width: 150px;
-    padding: 10px;
+    font-size: 8px;
+    width: 100px;
+    padding: 9px;
+  height: 30px;
     }
     #clear-board {
-      font-size: 12px;
+      font-size: 10px;
       width: 100px;
-      padding: 10px;
+      padding: 9px;
+        height: 30px;;
     }
     #generate-board {
-      font-size: 12px;
-      width: 100px;
-      padding: 10px;
+      font-size: 9px;
+    width: 100px;
+    padding: 9px;
+    height: 30px;
     }
     #button-container {
       height: 10vh;
@@ -132,9 +155,10 @@
       left: 18%;
     }  
     #board-size {
-      top: 32%;
-      left: 70%;
-      width: 50px; 
+      top: 30%;
+      left: 67%;
+      width: 30px; 
+      height: 20px;
     }
     #color-palette {
       width: 80vw;
@@ -142,6 +166,9 @@
       left: 30%;
     }
     #pixel-board {
+      top: 64%;
+    }
+    #canvas {
       top: 64%;
     }
   }
@@ -194,7 +221,9 @@
     #pixel-board {
       top: 64%;
     }
-      
+    #canvas {
+      top: 64%;
+    }
   }
       
 
@@ -233,6 +262,9 @@
     #pixel-board {
       top: 64%;
     }  
+    #canvas {
+      top: 64%;
+    }
   }
 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -270,5 +302,8 @@
     #pixel-board {
       top: 64%;
     } 
+    #canvas {
+      top: 64%;
+    }
       
   }

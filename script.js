@@ -119,12 +119,13 @@ window.onload = () => {
   limpar();
 };
 
-const savedGridSize = JSON.parse(localStorage.getItem('boardSize'));
+let savedGridSize = JSON.parse(localStorage.getItem('boardSize'));
 if (savedGridSize) {
   inputUsuario.value = savedGridSize;
   createGrid(savedGridSize);
 } else {
   createGrid(5);
+  savedGridSize = 5;
 }
 
 // Extra - FIRULAS EXTRAS DESNECESSÁRIAS
@@ -169,4 +170,94 @@ const selecionaBorracha = () => {
 selecionaBorracha();
 
 
+const canvas = document.getElementById('canvas');
+const btnDownload = document.getElementById('btn-download');
 
+const pixelSize = 42;
+
+const rows = savedGridSize;
+const cols = savedGridSize;
+
+canvas.width = pixelSize * cols;
+canvas.height = pixelSize * rows;
+
+const ctx = canvas.getContext('2d');
+
+
+const pixelss = [];
+for (let i = 0; i < rows * cols; i++) {
+  const color = JSON.parse(localStorage.getItem(`pixelBoard${i}`));
+  if (color) {
+    pixelss.push(color);
+  } else {
+    pixelss.push('white');
+  }
+}
+
+for (let i = 0; i < pixelss.length; i++) {
+  const row = Math.floor(i / cols);
+  const col = i % cols;
+  const color = pixelss[i];
+  ctx.fillStyle = color;
+  ctx.fillRect(col * pixelSize, row * pixelSize, pixelSize, pixelSize);
+}
+
+btnDownload.addEventListener('click', () => {
+  const link = document.createElement('a');
+  link.download = 'pixel-board.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+});
+
+// Desenho livre no canvas
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
+
+canvas.addEventListener('mousedown', (e) => {
+  isDrawing = true;
+  lastX = e.offsetX;
+  lastY = e.offsetY;
+});
+
+canvas.addEventListener('mousemove', (e) => {
+  if (isDrawing) {
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
+    lastX = e.offsetX;
+    lastY = e.offsetY;
+  }
+});
+
+canvas.addEventListener('mouseup', () => {
+  isDrawing = false;
+});
+
+// alterar visualização
+
+const botaoVisao = document.getElementById('mudar-visao');
+
+botaoVisao.addEventListener('click', () => {
+  const tipoVisualizacao = localStorage.getItem('tipo-visualizacao');
+  if (tipoVisualizacao === 'canvas') {
+    pixelBoard.style.display = 'grid';
+    canvas.style.display = 'none';
+    localStorage.setItem('tipo-visualizacao', 'pixelboard');
+  } else {
+    pixelBoard.style.display = 'none';
+    canvas.style.display = 'block';
+    localStorage.setItem('tipo-visualizacao', 'canvas');
+  }
+  window.location.reload();
+});
+
+const tipoVisualizacao = localStorage.getItem('tipo-visualizacao');
+if (tipoVisualizacao === 'canvas') {
+  pixelBoard.style.display = 'none';
+  canvas.style.display = 'block';
+} else {
+  pixelBoard.style.display = 'grid';
+  canvas.style.display = 'none';
+}

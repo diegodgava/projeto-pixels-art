@@ -156,3 +156,39 @@
     font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
   }
+  #canvas {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+#botoes-canvas {
+    display: flex;
+    position: absolute; 
+    left: 20%; 
+    top: 37%;
+    margin: auto;
+}
+
+#btn-download {
+    margin-right: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    height: 12px;
+}
+#mudar-visao {
+    margin-left: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    height: 12px;
+
+}
