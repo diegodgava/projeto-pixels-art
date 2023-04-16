@@ -1,114 +1,216 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  #title {
+  font-size: 1.5em;
+}
+  #button-random-color { 
+  font-size: 8px;
+  width: 100px;
+  padding: 10px;
+  }
+  #clear-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
+  #generate-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
   #button-container {
     height: 10vh;
     width: 80vw;
+    top: 10%;
     left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
+  }  
+  #board-size {
+    top: 20%;
+    left: 70%;
+    width: 50px; 
+  }
+  #color-palette {
+    width: 80vw;
+    top: 37%;
+    left: 15%;
+  }
     
-    }
-      #color-palette {
-        top: 40%;
-        left: 27%;
-      }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  #title {
+  font-size: 1.5em;
+}
+  #button-random-color { 
+  font-size: 10px;
+  width: 130px;
+  padding: 10px;
+  }
+  #clear-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
+  #generate-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
+  #button-container {
+    height: 10vh;
+    width: 70vw;
+    top: 10%;
+    left: 12%;
+  }  
+  #board-size {
+    top: 20%;
+    left: 67%;
+    width: 50px; 
+  }
+  #color-palette {
+    width: 80vw;
+    top: 37%;
+    left: 25%;
+  }
     
 }
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
-  #button-container {
-    height: 10vh;
-    width: 80vw;
-    left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
-    
+  #button-random-color { 
+    font-size: 12px;
+    width: 150px;
+    padding: 10px;
     }
-      #color-palette {
-        top: 40%;
-        left: 32%;
-      }
-    
-}
+    #clear-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #generate-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #button-container {
+      height: 10vh;
+      width: 65vw;
+      top: 10%;
+      left: 18%;
+    }  
+    #board-size {
+      top: 20%;
+      left: 70%;
+      width: 50px; 
+    }
+    #color-palette {
+      width: 80vw;
+      top: 40%;
+      left: 30%;
+    }
+      
+  }
 
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
-  #button-container {
-    height: 10vh;
-    width: 80vw;
-    left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
-    
+  #button-random-color { 
+    font-size: 12px;
+    width: 150px;
+    padding: 10px;
     }
-      #color-palette {
-        top: 40%;
-        left: 35%;
-      }
-    
-}
+    #clear-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #generate-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #button-container {
+      height: 10vh;
+      width: 65vw;
+      top: 10%;
+      left: 18%;
+    }  
+    #board-size {
+      top: 20%;
+      left: 70%;
+      width: 50px; 
+    }
+    #color-palette {
+      width: 80vw;
+      top: 40%;
+      left: 35%;
+    }
+      
+  }
+      
 
 @media screen and (min-width: 1300px) and (max-width: 1500px) {
-  #button-container {
-    height: 10vh;
-    width: 80vw;
-    left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
-    
+  #button-random-color { 
+    font-size: 12px;
+    width: 150px;
+    padding: 10px;
     }
-      #color-palette {
-        top: 40%;
-        left: 38%;
-      }
-    
-}
+    #clear-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #generate-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #button-container {
+      height: 10vh;
+      width: 60vw;
+      top: 10%;
+      left: 18%;
+    }  
+    #board-size {
+      top: 20%;
+      left: 66%;
+      width: 50px; 
+    }
+    #color-palette {
+      width: 80vw;
+      top: 40%;
+      left: 38%;
+    }
+      
+  }
 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
-  #button-container {
-    height: 10vh;
-    width: 80vw;
-    left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
-    
+  #button-random-color { 
+    font-size: 12px;
+    width: 150px;
+    padding: 10px;
     }
-      #color-palette {
-        top: 40%;
-        left: 39%;
-      }
-    
-}
-
-@media screen and (min-width: 1600px) and (max-width: 2500px) {
-  #button-container {
-    height: 10vh;
-    width: 80vw;
-    left: 10%;
- 
-}  
-    #board-size {
-       top: 30%;
-       left: 70%;
-    
+    #clear-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
     }
-      #color-palette {
-        top: 40%;
-        left: 42%;
-      }
-    
-}
+    #generate-board {
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+    }
+    #button-container {
+      height: 10vh;
+      width: 60vw;
+      top: 10%;
+      left: 18%;
+    }  
+    #board-size {
+      top: 20%;
+      left: 66%;
+      width: 50px; 
+    }
+    #color-palette {
+      width: 80vw;
+      top: 40%;
+      left: 38%;
+    }
+      
+  }

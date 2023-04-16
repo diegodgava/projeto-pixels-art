@@ -67,8 +67,8 @@
     cursor: pointer;
     position: fixed;
     top: 40%;
-    left: 44%;
-     z-index: 1;
+    left: 41%;
+    z-index: 1;
   
 }
 
@@ -96,7 +96,7 @@
 #board-size {
     position: absolute;
     left: 63%; 
-    top: 24%;
+    top: 26%;
     width: 100px;
     height: 30px;
     border: 1px solid black;
