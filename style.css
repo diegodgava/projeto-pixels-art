@@ -7,15 +7,16 @@
 }
 #header {
     background-color: #f2f2f2;
-    
-}
-#title {
+    position: absolute;
+    width: 97.8vw;
     text-align: center;
     padding: 20px;
     font-family: 'Press Start 2P', cursive;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-
+    
+    
 }
+
 
 #container {
     height: 90vh;
@@ -148,8 +149,8 @@
     padding: 20px;
     background-color: #f2f2f2;
     border-top: 1px solid #ddd;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: absolute;
+    bottom: 0;  
+    width: 97.8vw;
     font-family: 'Press Start 2P', cursive;
   }

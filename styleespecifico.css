@@ -1,5 +1,4 @@
-
-@media screen and (max-width: 600px) {
+/* @media screen and (max-height: 550px) and (max-width: 900px){
   #title {
   font-size: 1.5em;
 }
@@ -25,8 +24,8 @@
     left: 7%;
   }  
   #board-size {
-    top: 22%;
-    left: 70%;
+    top: 35%;
+    left: 76%;
     width: 50px; 
   }
   #color-palette {
@@ -35,11 +34,66 @@
     left: 10%;
   }
     
+} */
+
+@media screen and (max-width: 600px) {
+  #header {
+  padding: 10px;
+  }
+  #footer {
+    padding: 10px;
+    font-size: 10px;
+  }
+  #title {
+  font-size: 1em;
+}
+  #button-random-color { 
+  font-size: 8px;
+  width: 100px;
+  padding: 10px;
+  }
+  #clear-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
+  #generate-board {
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+  }
+  #button-container {
+    height: 10vh;
+    width: 90vw;
+    top: 18%;
+    left: 7%;
+  }  
+  #board-size {
+    top: 30%;
+    left: 76%;
+    width: 50px; 
+  }
+  #color-palette {
+    width: 80vw;
+    top: 38%;
+    left: 10%;
+  }
+  #pixel-board {
+    top: 60%;
+  }
+    
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  #title {
-  font-size: 1.5em;
-}
+  #header {
+    padding: 10px;
+    }
+    #footer {
+      padding: 10px;
+      font-size: 10px;
+    }
+    #title {
+    font-size: 1em;
+  }
   #button-random-color { 
   font-size: 10px;
   width: 130px;
@@ -58,23 +112,35 @@
   #button-container {
     height: 10vh;
     width: 70vw;
-    top: 10%;
+    top: 18%;
     left: 12%;
   }  
   #board-size {
-    top: 20%;
+    top: 30%;
     left: 67%;
     width: 50px; 
   }
   #color-palette {
     width: 80vw;
-    top: 30%;
+    top: 38%;
     left: 25%;
   }
-    
+  #pixel-board {
+    top: 60%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
+  #header {
+    padding: 10px;
+    }
+    #footer {
+      padding: 10px;
+      font-size: 10px;
+    }
+    #title {
+    font-size: 1em;
+  }
   #button-random-color { 
     font-size: 12px;
     width: 150px;
@@ -93,23 +159,36 @@
     #button-container {
       height: 10vh;
       width: 65vw;
-      top: 10%;
+      top: 20%;
       left: 18%;
     }  
     #board-size {
-      top: 20%;
+      top: 32%;
       left: 70%;
       width: 50px; 
     }
     #color-palette {
       width: 80vw;
-      top: 30%;
+      top: 42%;
       left: 30%;
     }
-      
+    #pixel-board {
+      top: 64%;
+    }
   }
+  
 
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #header {
+    padding: 15px;
+    }
+    #footer {
+      padding: 13px;
+      font-size: 10px;
+    }
+    #title {
+    font-size: 1em;
+  }
   #button-random-color { 
     font-size: 12px;
     width: 150px;
@@ -128,18 +207,21 @@
     #button-container {
       height: 10vh;
       width: 65vw;
-      top: 10%;
+      top: 20%;
       left: 18%;
     }  
     #board-size {
-      top: 20%;
+      top: 32%;
       left: 70%;
       width: 50px; 
     }
     #color-palette {
       width: 80vw;
-      top: 30%;
+      top: 42%;
       left: 35%;
+    }
+    #pixel-board {
+      top: 64%;
     }
       
   }
@@ -164,20 +246,22 @@
     #button-container {
       height: 10vh;
       width: 60vw;
-      top: 10%;
+      top: 20%;
       left: 18%;
     }  
     #board-size {
-      top: 20%;
+      top: 32%;
       left: 66%;
       width: 50px; 
     }
     #color-palette {
       width: 80vw;
-      top: 30%;
+      top: 42%;
       left: 38%;
     }
-      
+    #pixel-board {
+      top: 64%;
+    }  
   }
 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -199,18 +283,21 @@
     #button-container {
       height: 10vh;
       width: 60vw;
-      top: 10%;
+      top: 20%;
       left: 18%;
     }  
     #board-size {
-      top: 20%;
+      top: 32%;
       left: 66%;
       width: 50px; 
     }
     #color-palette {
       width: 80vw;
-      top: 30%;
+      top: 42%;
       left: 38%;
     }
+    #pixel-board {
+      top: 64%;
+    } 
       
   }
