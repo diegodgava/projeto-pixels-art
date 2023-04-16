@@ -35,25 +35,25 @@
   #button-container {
     height: 10vh;
     width: 90vw;
-    top: 18%;
+    top: 12%;
     left: 7%;
   }  
   #board-size {
-    top: 30%;
-    left: 76%;
+    top: 23%;
+    left: 80%;
     width: 40px; 
     height: 20px;
   }
   #color-palette {
     width: 80vw;
-    top: 40%;
+    top: 35%;
     left: 10%;
   }
   #pixel-board {
-    top: 60%;
+    top: 55%;
   }
   #canvas {
-    top: 60%;
+    top: 55%;
     }
     
 }
@@ -94,11 +94,11 @@
   #button-container {
     height: 10vh;
     width: 70vw;
-    top: 18%;
+    top: 12%;
     left: 12%;
   }  
   #board-size {
-    top: 30%;
+    top: 23%;
     left: 67%;
     width: 30px; 
     height: 20px;
@@ -106,14 +106,14 @@
   }
   #color-palette {
     width: 80vw;
-    top: 38%;
+    top: 35%;
     left: 25%;
   }
   #pixel-board {
-    top: 60%;
+    top: 55%;
   }
   #canvas {
-  top: 60%;
+  top: 55%;
   }
 }
 
@@ -151,7 +151,7 @@
     #button-container {
       height: 10vh;
       width: 65vw;
-      top: 20%;
+      top: 14%;
       left: 18%;
     }  
     #board-size {
@@ -205,7 +205,7 @@
     #button-container {
       height: 10vh;
       width: 65vw;
-      top: 20%;
+      top: 18%;
       left: 18%;
     }  
     #board-size {
