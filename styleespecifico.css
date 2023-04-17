@@ -34,13 +34,13 @@
   }
   #button-container {
     height: 10vh;
-    width: 90vw;
+    width: 74vw;
     top: 12%;
-    left: 7%;
+    left: 10%;
   }  
   #board-size {
-    top: 23%;
-    left: 80%;
+    top: 15%;
+    left: 85%;
     width: 40px; 
     height: 20px;
   }
@@ -54,6 +54,10 @@
   }
   #canvas {
     top: 55%;
+    }
+    #botoes-canvas {
+      top: 25%;
+      left: 28%
     }
     
 }
@@ -93,16 +97,15 @@
   }
   #button-container {
     height: 10vh;
-    width: 70vw;
+    width: 60vw;
     top: 12%;
-    left: 12%;
+    left: 18%;
   }  
   #board-size {
-    top: 23%;
-    left: 67%;
-    width: 30px; 
+    top: 15%;
+    left: 80%;
+    width: 40px; 
     height: 20px;
-
   }
   #color-palette {
     width: 80vw;
@@ -114,6 +117,10 @@
   }
   #canvas {
   top: 55%;
+  }
+  #botoes-canvas {
+    top: 25%;
+    left: 30%
   }
 }
 
@@ -150,14 +157,14 @@
     }
     #button-container {
       height: 10vh;
-      width: 65vw;
+      width: 55vw;
       top: 14%;
-      left: 18%;
+      left: 22%;
     }  
     #board-size {
-      top: 30%;
-      left: 67%;
-      width: 30px; 
+      top: 17%;
+      left: 78%;
+      width: 40px; 
       height: 20px;
     }
     #color-palette {
@@ -204,14 +211,15 @@
     }
     #button-container {
       height: 10vh;
-      width: 65vw;
+      width: 50vw;
       top: 18%;
-      left: 18%;
+      left: 25%;
     }  
     #board-size {
-      top: 32%;
-      left: 70%;
-      width: 50px; 
+      top: 21%;
+      left: 73%;
+      width: 40px; 
+      height: 20px;
     }
     #color-palette {
       width: 80vw;
@@ -245,14 +253,15 @@
     }
     #button-container {
       height: 10vh;
-      width: 60vw;
+      width: 40vw;
       top: 20%;
-      left: 18%;
+      left: 28%;
     }  
     #board-size {
-      top: 32%;
-      left: 66%;
-      width: 50px; 
+      top: 23%;
+      left: 67%;
+      width: 40px; 
+      height: 20px;
     }
     #color-palette {
       width: 80vw;
@@ -285,14 +294,15 @@
     }
     #button-container {
       height: 10vh;
-      width: 60vw;
+      width: 35vw;
       top: 20%;
-      left: 18%;
+      left: 32%;
     }  
     #board-size {
-      top: 32%;
+      top: 23%;
       left: 66%;
-      width: 50px; 
+      width: 40px; 
+      height: 20px;
     }
     #color-palette {
       width: 80vw;

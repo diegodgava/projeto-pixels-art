@@ -5,6 +5,9 @@
     border: 0;
     padding: 0;
 }
+body {
+    background-color: rgba(223, 210, 210, 0.651);
+}
 #header {
     position: fixed;
     top: 0;
@@ -13,10 +16,8 @@
     padding: 10px;
     font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
-    
-    
+     
 }
-
 
 #container {
     height: 90vh;
@@ -25,12 +26,12 @@
     box-sizing: border-box;
   }
 #button-container {
-    width: 50vw;
+    width: 35vw;
     cursor: pointer;
     display: flex;
     position: absolute;
     top: 20%;
-    left: 24%;
+    left: 31%;
  
 }
 #button-random-color { 
@@ -97,10 +98,10 @@
 
 #board-size {
     position: absolute;
-    left: 63%; 
-    top: 26%;
-    width: 100px;
-    height: 30px;
+    left: 66%; 
+    top: 20%;
+    width: 50px;
+    height: 20px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
@@ -155,6 +156,7 @@
     width: 100%;
     font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
+    height: 50px;
   }
   #canvas {
     display: none;
@@ -167,13 +169,15 @@
   }
 #botoes-canvas {
     display: flex;
+    flex-direction: column;
+    padding: 10px;
     position: absolute; 
     left: 20%; 
     top: 31%;
-    margin: auto;
 }
 
 #btn-download {
+    margin: 5px;
     margin-right: 5px;
     padding: 12px;
     color: black;
@@ -181,6 +185,8 @@
     font-family: 'Press Start 2P', cursive;
     font-size: 8px;
     height: 14px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 #mudar-visao {
     margin-left: 5px;
@@ -190,5 +196,8 @@
     font-family: 'Press Start 2P', cursive;
     font-size: 8px;
     height: 14px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
 
 }
